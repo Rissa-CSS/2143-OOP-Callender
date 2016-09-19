@@ -129,9 +129,8 @@ print ("Solution J")
 
 d = {1:2, 3:3, 3:2, 4:3}
 def rm(d, x):
-	
-	for key in d.keys():
-		if d[key] == x:
-			del d[key]
+	remove =[k for k in d if k ==x]
+	for k in remove:
+		del d[k]
 	print (d)		
 rm(d,3)

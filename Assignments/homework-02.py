@@ -44,9 +44,17 @@ class fraction(object):
         		return str (str(j//k) +' '+ str( fraction ((j%k),k)))
         
 
-a = fraction(1,2)
-b = fraction(4,5)
-c = a * b
-d = a+b
-print(c)
-print(d)
+
+def __main__ ():
+	a = fraction(1,2)
+	b = fraction(4,5)
+	c = a * b
+	d = a+b
+	print(c)
+	print(d)
+
+__main__()
+	
+	
+if __name__=="__main__":
+	__main__()

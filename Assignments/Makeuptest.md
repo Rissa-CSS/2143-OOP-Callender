@@ -90,7 +90,8 @@ States = ['Alabama','Illinois','Wyoming','New York', 'Vermont', 'New Hampshire',
 
 **B)** Add 'Oklahoma' to the list in alphabetical order without sorting the list again. Actually, write a function that would add an item to the list in alphabetical order. Example:
 
-```python States.sort()
+```python 
+States.sort()
 def addInOrder(States,Inserts):
 	for i in range(len(States)):
 		if (States[i] >= Inserts):
